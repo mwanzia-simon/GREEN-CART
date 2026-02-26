@@ -27,6 +27,7 @@ body{
 }
 .container{
     padding: 10px;
+    background: var(--bg-light);
 }
 .navbar{
     display: flex;
@@ -36,10 +37,13 @@ body{
 .navbar .logo-container h3{
     font-family: sans-serif;
     font-weight: bolder;
+    font-size: 20px;
     color: var(--secondary-green);
 }
+
 nav ul{
 display: flex;
+align-items: center;
 }
 nav ul .shop-now{
     padding: 8px;
@@ -49,12 +53,54 @@ nav ul .shop-now{
 }
 
 nav ul li{
-    margin-right: 20px;
+    margin-right: 25px;
     list-style-type:none;
 }
+nav ul .cart-container{
+position: relative;
+cursor: pointer;
+}
+nav ul .cart-container p{
+    position: absolute;
+    background: var(--accent-orange);
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 50%;
+    top: -30px;
+    right: -5px;
+}
+nav ul .cart-container i{
+    font-size: 22px;
+    color: var(--text-muted);
+}
+
 nav ul li a{
     text-decoration: none;
     font-family: sans-serif;
     color: var(--text-dark);
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.col-1{
+    flex-basis: 50%;
+    padding: 10px;
+}
+.col-1 h1{
+    color: var(--text-dark);
+    font-family: sans-serif;
+}
+.col-1 p{
+    font-family: sans-serif;
+    color: var(--text-muted);
 }
 
