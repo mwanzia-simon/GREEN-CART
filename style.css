@@ -18,7 +18,9 @@
   /*  Border / Subtle UI */
   --border-light: #e5e7eb;
 }
-
+::-webkit-scrollbar{
+  width: 0;
+}
 body {
   height: 100vh;
   width: 100vw;
