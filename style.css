@@ -132,6 +132,8 @@ nav ul li a {
 }
 .products-container {
   display: grid;
+  place-items: cen
+  ;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
   padding: 20px;
