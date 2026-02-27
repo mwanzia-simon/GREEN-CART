@@ -403,7 +403,14 @@ footer .row .quick-links ul a {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     top: 5%;
     right: 10%;
-    display: none;
+    scale: 0;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+    transition: all .2s;
+  }
+  .navbar #sidebar-active:checked ~ nav{
+    scale: 1;
   }
     .navbar label{
     display: flex;
