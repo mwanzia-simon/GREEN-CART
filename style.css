@@ -157,7 +157,7 @@ nav ul li a {
   box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
 }
 .products-container .product .lowered-price {
-  padding: 5px;
+  padding: 2px;
   width: 100px;
   position: absolute;
   text-align: center;
@@ -166,6 +166,7 @@ nav ul li a {
   font-family: sans-serif;
   left: 10px;
   top: 0px;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
   background-color: var(--primary-green);
 }
 .product .rating .fa-solid {
@@ -181,8 +182,8 @@ nav ul li a {
   background: var(--accent-orange);
 }
 .product img {
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   object-fit: contain;
   padding: 5px;
 }
@@ -280,10 +281,7 @@ nav ul li a {
   font-style: italic;
   color: var(--text-muted);
 }
-.newsletter {
-}
-.newsletter .col-1 {
-}
+
 .newsletter .col-1 img {
   width: 60%;
   margin: 0 auto;
@@ -299,7 +297,7 @@ nav ul li a {
   text-align: justify;
 }
 .newsletter .email-container {
-  width: 60%;
+  width: 90%;
   display: flex;
 }
 .newsletter .email-container input {
@@ -310,7 +308,6 @@ nav ul li a {
   border-bottom-left-radius: 10px;
   border-top-left-radius: 10px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-
 }
 .newsletter .email-container button {
   width: 35%;
@@ -319,12 +316,73 @@ nav ul li a {
   border-bottom-right-radius: 10px;
   border-top-right-radius: 10px;
   background-color: var(--accent-orange);
-  color:#fff;
+  color: #fff;
   cursor: pointer;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-
+}
+footer {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  background: var(--accent-orange);
+}
+footer hr {
+  width: 90%;
+  border: none;
+  height: 1px;
+  background-color: #fff;
+}
+footer .row {
+  padding: 20px;
+}
+footer .row .card {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+footer p {
+  color: #fff;
+}
+footer .row .card h3 {
+  color: #fff;
+}
+footer .row .card p {
+  color: #fff;
 }
 
+footer .row .quick-links ul {
+  width: 40%;
+  margin: 0 auto;
+  list-style-type: none;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+footer .row .quick-links ul a {
+  text-decoration: none;
+  color: #fff;
+}
+@media (min-width: 800px) {
+  footer .row {
+    width: 80%;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+  }
+  footer .row .card {
+    width: 200px;
+    height: 200px;
+  }
+}
 @media (max-width: 768px) {
   .row {
     display: flex;
