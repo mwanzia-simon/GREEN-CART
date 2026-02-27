@@ -250,13 +250,103 @@
     "category": "vegetables",
     "price-decrease": "-7",
     "product-price": "93"
-  }
-  ,
+  },
   {
     "product-name": "Pepper",
     "product-image": "images/pepper_vegetable.png",
     "category": "vegetables",
     "price-decrease": "-7",
     "product-price": "53"
+  },
+  {
+    "product-name": "Pepsi",
+    "product-image": "images/pepsi_beverage.png",
+    "category": "beverages",
+    "price-decrease": "-8",
+    "product-price": "42"
+  },
+  {
+    "product-name": "Pineapple",
+    "product-image": "images/pineapple_fruit.png",
+    "category": "fruits",
+    "price-decrease": "-8",
+    "product-price": "42"
+  },
+  {
+    "product-name": "Red Bull",
+    "product-image": "images/redbull_beverage.png",
+    "category": "beverages",
+    "price-decrease": "-8",
+    "product-price": "92"
+  },
+  {
+    "product-name": "Rice flour",
+    "product-image": "images/riceflour_flour.png",
+    "category": "flour",
+    "price-decrease": "-8",
+    "product-price": "92"
+  },
+  {
+    "product-name": "Spinach",
+    "product-image": "images/spinach_vegetable.png",
+    "category": "vegetables",
+    "price-decrease": "-6",
+    "product-price": "24"
+  },
+  {
+    "product-name": "Sprite",
+    "product-image": "images/sprite_beverage.png",
+    "category": "beverages",
+    "price-decrease": "-3",
+    "product-price": "47"
+  },
+  {
+    "product-name": "Strawberry",
+    "product-image": "images/strawberry_fruit.png",
+    "category": "fruits",
+    "price-decrease": "-3",
+    "product-price": "47"
+  },
+  {
+    "product-name": "Sunhart cooking oil",
+    "product-image": "images/sunhart_cooking-oil.png",
+    "category": "cooking oil",
+    "price-decrease": "-3",
+    "product-price": "147"
+  },
+  {
+    "product-name": "Tigernut flour",
+    "product-image": "images/tigernutflour_flour.png",
+    "category": "flour",
+    "price-decrease": "-4",
+    "product-price": "146"
+  },
+  {
+    "product-name": "Tomatos",
+    "product-image": "images/tomato_vegetable.png",
+    "category": "vegetables",
+    "price-decrease": "-5",
+    "product-price": "45"
+  },
+  {
+    "product-name": "Mineral Water",
+    "product-image": "images/water_beverage.png",
+    "category": "beverages",
+    "price-decrease": "-5",
+    "product-price": "35"
+  },
+  {
+    "product-name": "Watermelon",
+    "product-image": "images/watermelon_fruit.png",
+    "category": "fruits",
+    "price-decrease": "-3",
+    "product-price": "47"
+  },
+  {
+    "product-name": "Wheat flour",
+    "product-image": "images/wheatflour_flour.png",
+    "category": "flour",
+    "price-decrease": "-3",
+    "product-price": "147"
   }
 ]
