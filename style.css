@@ -135,7 +135,7 @@ nav ul li a {
   display: grid;
   place-items: center;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
+  gap: 25px;
   padding: 20px;
 }
 .popular-products h3 {
@@ -224,24 +224,106 @@ nav ul li a {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 30px;
 }
-.reasons .reason-card{
-   background: var(--bg-white);
+.reasons .reason-card {
+  background: var(--bg-white);
   padding: 25px;
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   transition: transform 0.2s ease;
   font-family: sans-serif;
 }
-.reasons .reason-card h3{
+.reasons .reason-card h3 {
   font-size: 18px;
   color: var(--text-dark);
 }
-.reasons .reason-card i{
+.reasons .reason-card i {
   font-size: 30px;
   color: var(--accent-orange);
 }
+.testimonial {
+  padding: 60px 20px;
+  background-color: var(--bg-white);
+}
+.testimonial h3 {
+  font-family: sans-serif;
+  color: var(--text-dark);
+  margin-left: 25px;
+  font-size: 22px;
+}
 
+.testimonials {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  padding: 10px;
+}
+.testimonial-card {
+  padding: 20px;
+  text-align: center;
+  background-color: var(--bg-white);
+  font-family: sans-serif;
+  color: var(--text-dark);
+  border-radius: 10px;
+  line-height: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.testimonial-card img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.testimonial-card .customer-name {
+  font-weight: 800;
+}
+.testimonial-card .customer-role {
+  font-style: italic;
+  color: var(--text-muted);
+}
+.newsletter {
+}
+.newsletter .col-1 {
+}
+.newsletter .col-1 img {
+  width: 60%;
+  margin: 0 auto;
+}
+.newsletter .col-1 h3 {
+  font-size: 25px;
+  font-family: sans-serif;
+  color: var(--accent-orange);
+}
+.newsletter .col-1 p {
+  color: var(--text-muted);
+  line-height: 20px;
+  text-align: justify;
+}
+.newsletter .email-container {
+  width: 60%;
+  display: flex;
+}
+.newsletter .email-container input {
+  width: 55%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 
+}
+.newsletter .email-container button {
+  width: 35%;
+  border: none;
+  outline: none;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: var(--accent-orange);
+  color:#fff;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+}
 
 @media (max-width: 768px) {
   .row {
