@@ -40,6 +40,9 @@ body {
 .navbar input {
   display: none;
 }
+.navbar label {
+  display: none;
+}
 .navbar label i {
   font-size: 22px;
   color: var(--secondary-green);
@@ -329,8 +332,7 @@ nav ul li a {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 footer {
-  width: 90%;
-  padding: 10px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -402,6 +404,9 @@ footer .row .quick-links ul a {
     top: 5%;
     right: 10%;
     display: none;
+  }
+    .navbar label{
+    display: flex;
   }
   .navbar nav label {
     font-size: 20px;
