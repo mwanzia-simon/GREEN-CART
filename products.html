@@ -12,7 +12,33 @@
     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
   </head>
   <body>
-    
+    <div class="container">
+      <div class="navbar">
+        <div class="logo-container">
+          <h3>Green Cart</h3>
+        </div>
+        <input type="checkbox" id="sidebar-active">
+        <label for="sidebar-active"><i class="fa-solid fa-bars-staggered"></i></label>
+        <nav>
+          <label for="sidebar-active"><i class="fa-solid fa-xmark"></i></label>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#aboutus">About Us</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="cart.html">Orders</a></li>
+            <li class="shopping-cart">
+              <div class="cart-container">
+                <p id="number-of-items">5</p>
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+            </li>
+            <li>
+              <a href="products.html" class="shop-now">Shop now</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <h1>products</h1>
     <script src="main.js"></script>
   </body>
 </html>
