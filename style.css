@@ -68,6 +68,7 @@ nav ul .shop-now {
 nav ul li {
   margin-right: 25px;
   list-style-type: none;
+  transition: all .1s;
 }
 nav ul .cart-container {
   position: relative;
@@ -414,6 +415,7 @@ footer .row .quick-links ul a {
   }
     .navbar label{
     display: flex;
+    cursor: pointer;
   }
   .navbar nav label {
     font-size: 20px;
@@ -430,6 +432,10 @@ footer .row .quick-links ul a {
     flex-direction: column;
     gap: 20px;
   }
+  .navbar nav ul li:hover{
+    border-bottom: 2px solid var(--accent-orange);
+  }
+
   .row {
     display: flex;
     align-items: center;
