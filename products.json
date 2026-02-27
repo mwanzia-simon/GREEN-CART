@@ -1,9 +1,262 @@
 [
-    {
-        "product-name":,
-        "product-image":,
-        "category":,
-        "price-decrease":,
-        "product-price":,
-    }
+  {
+    "product-name": "7 UP soda",
+    "product-image": "images/7up_soda.png",
+    "category": "beverages",
+    "price-decrease": "-10",
+    "product-price": "70"
+  },
+  {
+    "product-name": "Apple",
+    "product-image": "images/apple_fruit.png",
+    "category": "fruits",
+    "price-decrease": "-8",
+    "product-price": "22"
+  },
+  {
+    "product-name": "Areej cooking oil",
+    "product-image": "images/areej_cooking-oil.png",
+    "category": "cooking oil",
+    "price-decrease": "-9",
+    "product-price": "231"
+  },
+  {
+    "product-name": "Bahari fry cooking oil",
+    "product-image": "images/baharifry_cooking-oil.png",
+    "category": "cooking oil",
+    "price-decrease": "-9",
+    "product-price": "251"
+  },
+  {
+    "product-name": "Bananas",
+    "product-image": "images/banana_fruit.png",
+    "category": "fruits",
+    "price-decrease": "-5",
+    "product-price": "25"
+  },
+  {
+    "product-name": "Bread",
+    "product-image": "images/bread.png",
+    "category": "others",
+    "price-decrease": "-8",
+    "product-price": "62"
+  },
+  {
+    "product-name": "Cake flour",
+    "product-image": "images/cakeflour_flour.png",
+    "category": "flour",
+    "price-decrease": "-10",
+    "product-price": "390"
+  },
+  {
+    "product-name": "Carrots",
+    "product-image": "images/carrot_vegetable.png",
+    "category": "vegetables",
+    "price-decrease": "-10",
+    "product-price": "40"
+  },
+  {
+    "product-name": "Chocolate",
+    "product-image": "images/chocolate_dairy.png",
+    "category": "dairy",
+    "price-decrease": "-7",
+    "product-price": "123"
+  },
+  {
+    "product-name": "Coconut flour",
+    "product-image": "images/coconutflour_flour.png",
+    "category": "flour",
+    "price-decrease": "-7",
+    "product-price": "253"
+  },
+  {
+    "product-name": "Sufi cooking oil",
+    "product-image": "images/cooking-oil.png",
+    "category": "cooking oil",
+    "price-decrease": "-15",
+    "product-price": "253"
+  },
+  {
+    "product-name": "Coriander",
+    "product-image": "images/corinder_vegetable.png",
+    "category": "vegetables",
+    "price-decrease": "-5",
+    "product-price": "35"
+  },
+  {
+    "product-name": "Cucumber",
+    "product-image": "images/cucumber_vegetable.png",
+    "category": "vegetables",
+    "price-decrease": "-5",
+    "product-price": "45"
+  },
+  {
+    "product-name": "Eggs",
+    "product-image": "images/eggs.png",
+    "category": "others",
+    "price-decrease": "-5",
+    "product-price": "12"
+  },
+  {
+    "product-name": "Fanta",
+    "product-image": "images/fanta_beverage.png",
+    "category": "beverages",
+    "price-decrease": "-5",
+    "product-price": "35"
+  },
+  {
+    "product-name": "Freshi fri cooking oil",
+    "product-image": "images/freshfri_cooking-oil.png",
+    "category": "cooking oil",
+    "price-decrease": "-5",
+    "product-price": "135"
+  },
+  {
+    "product-name": "Garlic",
+    "product-image": "images/garlic_vegetable.png",
+    "category": "vegetables",
+    "price-decrease": "-6",
+    "product-price": "14"
+  },
+  {
+    "product-name": "Ginger",
+    "product-image": "images/ginger_vegetable.png",
+    "category": "vegetables",
+    "price-decrease": "-8",
+    "product-price": "12"
+  },
+  {
+    "product-name": "Golden sun cooking oil",
+    "product-image": "images/goldensun_cooking-oil.png",
+    "category": "cooking oil",
+    "price-decrease": "-8",
+    "product-price": "212"
+  },
+  {
+    "product-name": "Grapefruit",
+    "product-image": "images/grapefruit_fruit.png",
+    "category": "fruits",
+    "price-decrease": "-8",
+    "product-price": "52"
+  },
+  {
+    "product-name": "Grapes",
+    "product-image": "images/grapes_fruit.png",
+    "category": "fruits",
+    "price-decrease": "-4",
+    "product-price": "56"
+  },
+  {
+    "product-name": "Grean beans",
+    "product-image": "images/greenbeans_vegetable.png",
+    "category": "vegetables",
+    "price-decrease": "-4",
+    "product-price": "66"
+  },
+  {
+    "product-name": "Kales",
+    "product-image": "images/kales_vegetables.png",
+    "category": "vegetables",
+    "price-decrease": "-4",
+    "product-price": "46"
+  },
+  {
+    "product-name": "King arthur flour",
+    "product-image": "images/kingarthurflour_flour.png",
+    "category": "flour",
+    "price-decrease": "-4",
+    "product-price": "146"
+  },
+  {
+    "product-name": "Kiwi fruit",
+    "product-image": "images/kiwi_fruit.png",
+    "category": "fruits",
+    "price-decrease": "-4",
+    "product-price": "46"
+  },
+  {
+    "product-name": "Lemon",
+    "product-image": "images/lemon_fruit.png",
+    "category": "fruits",
+    "price-decrease": "-4",
+    "product-price": "46"
+  },
+  {
+    "product-name": "Mango",
+    "product-image": "images/mango_fruit.png",
+    "category": "fruits",
+    "price-decrease": "-4",
+    "product-price": "26"
+  },
+  {
+    "product-name": "Milk",
+    "product-image": "images/milk_dairy.png",
+    "category": "dairy",
+    "price-decrease": "-4",
+    "product-price": "56"
+  },
+  {
+    "product-name": "Mirinda",
+    "product-image": "images/mirinda_beverage.png",
+    "category": "beverages",
+    "price-decrease": "-4",
+    "product-price": "86"
+  },
+  {
+    "product-name": "Onion",
+    "product-image": "images/onion_vegetable.png",
+    "category": "vegetables",
+    "price-decrease": "-8",
+    "product-price": "12"
+  },
+  {
+    "product-name": "Orange",
+    "product-image": "images/orange_fruit.png",
+    "category": "fruits",
+    "price-decrease": "-3",
+    "product-price": "12"
+  },
+  {
+    "product-name": "Passion",
+    "product-image": "images/passion_fruit.png",
+    "category": "fruits",
+    "price-decrease": "-3",
+    "product-price": "12"
+  },
+  {
+    "product-name": "Pawpaw",
+    "product-image": "images/pawpaw_fruit.png",
+    "category": "fruits",
+    "price-decrease": "-7",
+    "product-price": "33"
+  },
+  {
+    "product-name": "Peach",
+    "product-image": "images/peach_fruit.png",
+    "category": "fruits",
+    "price-decrease": "-7",
+    "product-price": "73"
+  },
+  {
+    "product-name": "Pear",
+    "product-image": "images/pear_fruit.png",
+    "category": "fruits",
+    "price-decrease": "-7",
+    "product-price": "73"
+  },
+  {
+    "product-name": "Peas",
+    "product-image": "images/peas_vegetables.png",
+    "category": "vegetables",
+    "price-decrease": "-7",
+    "product-price": "93"
+  }
+  ,
+  {
+    "product-name": "Pepper",
+    "product-image": "images/pepper_vegetable.png",
+    "category": "vegetables",
+    "price-decrease": "-7",
+    "product-price": "53"
+  }
 ]
