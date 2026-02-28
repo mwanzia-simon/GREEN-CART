@@ -41,7 +41,7 @@ async function loadCategories(target) {
             <i class="fa-regular fa-star"></i>
           </div>
           <p class="product-price">Ksh. ${product.productPrice}</p>
-          <button class="add-to-cart">Add to cart</button>
+          <button class="add-to-cart" onclick="addProductToCart(${product})">Add to cart</button>
         </div>
     `;
     });
@@ -61,8 +61,13 @@ async function loadCategories(target) {
             <i class="fa-regular fa-star"></i>
           </div>
           <p class="product-price">ksh. ${product.productPrice}</p>
-          <button class="add-to-cart">Add to cart</button>
+          <button class="add-to-cart" onclick="addProductToCart(${product.productName})">Add to cart</button>
         </div>
     `;
   });
+}
+
+//Function to add product to cart
+function addProductToCart(product){
+    console.log(product)
 }
