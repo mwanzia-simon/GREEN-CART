@@ -1,5 +1,6 @@
 [
   {
+    "productID":"GC001",
     "productName": "7 UP soda",
     "productImageUrl": "images/7up_soda.png",
     "category": "beverages",
@@ -7,6 +8,7 @@
     "productPrice": "70"
   },
   {
+    "productID":"GC002",
     "productName": "Apple",
     "productImageUrl": "images/apple_fruit.png",
     "category": "fruits",
@@ -14,6 +16,7 @@
     "productPrice": "22"
   },
   {
+    "productID":"GC003",
     "productName": "Areej cooking oil",
     "productImageUrl": "images/areej_cooking-oil.png",
     "category": "cooking oil",
@@ -21,6 +24,7 @@
     "productPrice": "231"
   },
   {
+    "productID":"GC004",
     "productName": "Bahari fry cooking oil",
     "productImageUrl": "images/baharifry_cooking-oil.png",
     "category": "cooking oil",
@@ -28,6 +32,7 @@
     "productPrice": "251"
   },
   {
+    "productID":"GC005",
     "productName": "Bananas",
     "productImageUrl": "images/banana_fruit.png",
     "category": "fruits",
@@ -35,6 +40,7 @@
     "productPrice": "25"
   },
   {
+    "productID":"GC006",
     "productName": "Bread",
     "productImageUrl": "images/bread.png",
     "category": "others",
@@ -42,6 +48,7 @@
     "productPrice": "62"
   },
   {
+    "productID":"GC007",
     "productName": "Cake flour",
     "productImageUrl": "images/cakeflour_flour.png",
     "category": "flour",
@@ -49,6 +56,7 @@
     "productPrice": "390"
   },
   {
+    "productID":"GC008",
     "productName": "Carrots",
     "productImageUrl": "images/carrot_vegetable.png",
     "category": "vegetables",
@@ -56,6 +64,7 @@
     "productPrice": "40"
   },
   {
+    "productID":"GC009",
     "productName": "Chocolate",
     "productImageUrl": "images/chocolate_dairy.png",
     "category": "dairy",
@@ -63,6 +72,7 @@
     "productPrice": "123"
   },
   {
+    "productID":"GC010",
     "productName": "Coconut flour",
     "productImageUrl": "images/coconutflour_flour.png",
     "category": "flour",
@@ -70,6 +80,7 @@
     "productPrice": "253"
   },
   {
+    "productID":"GC011",
     "productName": "Sufi cooking oil",
     "productImageUrl": "images/cooking-oil.png",
     "category": "cooking oil",
@@ -77,6 +88,7 @@
     "productPrice": "253"
   },
   {
+    "productID":"GC012",
     "productName": "Coriander",
     "productImageUrl": "images/corinder_vegetable.png",
     "category": "vegetables",
@@ -84,6 +96,7 @@
     "productPrice": "35"
   },
   {
+    "productID":"GC013",
     "productName": "Cucumber",
     "productImageUrl": "images/cucumber_vegetable.png",
     "category": "vegetables",
@@ -91,6 +104,7 @@
     "productPrice": "45"
   },
   {
+    "productID":"GC014",
     "productName": "Eggs",
     "productImageUrl": "images/eggs.png",
     "category": "others",
@@ -98,6 +112,7 @@
     "productPrice": "12"
   },
   {
+    "productID":"GC015",
     "productName": "Fanta",
     "productImageUrl": "images/fanta_beverage.png",
     "category": "beverages",
@@ -105,6 +120,7 @@
     "productPrice": "35"
   },
   {
+    "productID":"GC016",
     "productName": "Freshi fri cooking oil",
     "productImageUrl": "images/freshfri_cooking-oil.png",
     "category": "cooking oil",
@@ -112,6 +128,7 @@
     "productPrice": "135"
   },
   {
+    "productID":"GC017",
     "productName": "Garlic",
     "productImageUrl": "images/garlic_vegetable.png",
     "category": "vegetables",
@@ -119,6 +136,7 @@
     "productPrice": "14"
   },
   {
+    "productID":"GC018",
     "productName": "Ginger",
     "productImageUrl": "images/ginger_vegetable.png",
     "category": "vegetables",
@@ -126,6 +144,7 @@
     "productPrice": "12"
   },
   {
+    "productID":"GC019",
     "productName": "Golden sun cooking oil",
     "productImageUrl": "images/goldensun_cooking-oil.png",
     "category": "cooking oil",
@@ -133,6 +152,7 @@
     "productPrice": "212"
   },
   {
+    "productID":"GC020",
     "productName": "Grapefruit",
     "productImageUrl": "images/grapefruit_fruit.png",
     "category": "fruits",
@@ -140,6 +160,7 @@
     "productPrice": "52"
   },
   {
+    "productID":"GC021",
     "productName": "Grapes",
     "productImageUrl": "images/grapes_fruit.png",
     "category": "fruits",
@@ -147,6 +168,7 @@
     "productPrice": "56"
   },
   {
+    "productID":"GC022",
     "productName": "Grean beans",
     "productImageUrl": "images/greenbeans_vegetable.png",
     "category": "vegetables",
@@ -154,6 +176,7 @@
     "productPrice": "66"
   },
   {
+    "productID":"GC023",
     "productName": "Kales",
     "productImageUrl": "images/kales_vegetables.png",
     "category": "vegetables",
@@ -161,6 +184,7 @@
     "productPrice": "46"
   },
   {
+    "productID":"GC024",
     "productName": "King arthur flour",
     "productImageUrl": "images/kingarthurflour_flour.png",
     "category": "flour",
@@ -168,6 +192,7 @@
     "productPrice": "146"
   },
   {
+    "productID":"GC025",
     "productName": "Kiwi fruit",
     "productImageUrl": "images/kiwi_fruit.png",
     "category": "fruits",
@@ -175,6 +200,7 @@
     "productPrice": "46"
   },
   {
+    "productID":"GC026",
     "productName": "Lemon",
     "productImageUrl": "images/lemon_fruit.png",
     "category": "fruits",
@@ -182,6 +208,7 @@
     "productPrice": "46"
   },
   {
+    "productID":"GC027",
     "productName": "Mango",
     "productImageUrl": "images/mango_fruit.png",
     "category": "fruits",
@@ -189,6 +216,7 @@
     "productPrice": "26"
   },
   {
+    "productID":"GC028",
     "productName": "Milk",
     "productImageUrl": "images/milk_dairy.png",
     "category": "dairy",
@@ -196,6 +224,7 @@
     "productPrice": "56"
   },
   {
+    "productID":"GC029",
     "productName": "Mirinda",
     "productImageUrl": "images/mirinda_beverage.png",
     "category": "beverages",
@@ -203,6 +232,7 @@
     "productPrice": "86"
   },
   {
+    "productID":"GC030",
     "productName": "Onion",
     "productImageUrl": "images/onion_vegetable.png",
     "category": "vegetables",
@@ -210,6 +240,7 @@
     "productPrice": "12"
   },
   {
+    "productID":"GC031",
     "productName": "Orange",
     "productImageUrl": "images/orange_fruit.png",
     "category": "fruits",
@@ -217,6 +248,7 @@
     "productPrice": "12"
   },
   {
+    "productID":"GC032",
     "productName": "Passion",
     "productImageUrl": "images/passion_fruit.png",
     "category": "fruits",
@@ -224,6 +256,7 @@
     "productPrice": "12"
   },
   {
+    "productID":"GC033",
     "productName": "Pawpaw",
     "productImageUrl": "images/pawpaw_fruit.png",
     "category": "fruits",
@@ -231,6 +264,7 @@
     "productPrice": "33"
   },
   {
+    "productID":"GC034",
     "productName": "Peach",
     "productImageUrl": "images/peach_fruit.png",
     "category": "fruits",
@@ -238,6 +272,7 @@
     "productPrice": "73"
   },
   {
+    "productID":"GC035",
     "productName": "Pear",
     "productImageUrl": "images/pear_fruit.png",
     "category": "fruits",
@@ -245,6 +280,7 @@
     "productPrice": "73"
   },
   {
+    "productID":"GC036",
     "productName": "Peas",
     "productImageUrl": "images/peas_vegetables.png",
     "category": "vegetables",
@@ -252,6 +288,7 @@
     "productPrice": "93"
   },
   {
+    "productID":"GC037",
     "productName": "Pepper",
     "productImageUrl": "images/pepper_vegetable.png",
     "category": "vegetables",
@@ -259,6 +296,7 @@
     "productPrice": "53"
   },
   {
+    "productID":"GC038",
     "productName": "Pepsi",
     "productImageUrl": "images/pepsi_beverage.png",
     "category": "beverages",
@@ -266,6 +304,7 @@
     "productPrice": "42"
   },
   {
+    "productID":"GC039",
     "productName": "Pineapple",
     "productImageUrl": "images/pineapple_fruit.png",
     "category": "fruits",
@@ -273,6 +312,7 @@
     "productPrice": "42"
   },
   {
+    "productID":"GC040",
     "productName": "Red Bull",
     "productImageUrl": "images/redbull_beverage.png",
     "category": "beverages",
@@ -280,6 +320,7 @@
     "productPrice": "92"
   },
   {
+    "productID":"GC041",
     "productName": "Rice flour",
     "productImageUrl": "images/riceflour_flour.png",
     "category": "flour",
@@ -287,6 +328,7 @@
     "productPrice": "92"
   },
   {
+    "productID":"GC042",
     "productName": "Spinach",
     "productImageUrl": "images/spinach_vegetable.png",
     "category": "vegetables",
@@ -294,6 +336,7 @@
     "productPrice": "24"
   },
   {
+    "productID":"GC043",
     "productName": "Sprite",
     "productImageUrl": "images/sprite_beverage.png",
     "category": "beverages",
@@ -301,6 +344,7 @@
     "productPrice": "47"
   },
   {
+    "productID":"GC044",
     "productName": "Strawberry",
     "productImageUrl": "images/strawberry_fruit.png",
     "category": "fruits",
@@ -308,6 +352,7 @@
     "productPrice": "47"
   },
   {
+    "productID":"GC045",
     "productName": "Sunhart cooking oil",
     "productImageUrl": "images/sunhart_cooking-oil.png",
     "category": "cooking oil",
@@ -315,6 +360,7 @@
     "productPrice": "147"
   },
   {
+    "productID":"GC046",
     "productName": "Tigernut flour",
     "productImageUrl": "images/tigernutflour_flour.png",
     "category": "flour",
@@ -322,6 +368,7 @@
     "productPrice": "146"
   },
   {
+    "productID":"GC047",
     "productName": "Tomatos",
     "productImageUrl": "images/tomato_vegetable.png",
     "category": "vegetables",
@@ -329,6 +376,7 @@
     "productPrice": "45"
   },
   {
+    "productID":"GC048",
     "productName": "Mineral Water",
     "productImageUrl": "images/water_beverage.png",
     "category": "beverages",
@@ -336,6 +384,7 @@
     "productPrice": "35"
   },
   {
+    "productID":"GC049",
     "productName": "Watermelon",
     "productImageUrl": "images/watermelon_fruit.png",
     "category": "fruits",
@@ -343,6 +392,7 @@
     "productPrice": "47"
   },
   {
+    "productID":"GC050",
     "productName": "Wheat flour",
     "productImageUrl": "images/wheatflour_flour.png",
     "category": "flour",
