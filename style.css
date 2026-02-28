@@ -257,7 +257,7 @@ nav ul li a {
   font-size: 30px;
   border-radius: 50%;
   background: var(--accent-orange);
-  color:#fff;
+  color:#fff; 
   display: flex;
   align-items: center;
   justify-content: center; 
@@ -531,3 +531,75 @@ footer .row .quick-links ul a {
   box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
   background-color: var(--primary-green);
 }
+.cart-section{
+  max-width: 70%;
+  padding: 20px 20px;
+  margin: 0 auto;
+}
+.cart-section h3{
+  font-family: sans-serif;
+  color: var(--text-dark);
+  text-align: center;
+  font-size: 22px;
+}
+
+.cart-section .shopping-cart-container{
+  padding: 20px 20px;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+.cart-section .shopping-cart-container .cart-product{
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+  font-family: sans-serif;
+  justify-content: space-around;
+  border-bottom: 1px solid var(--text-muted);
+}
+.shopping-cart-container .cart-product img{
+  height: 80px;
+  width: 80px;
+  object-fit: cover;
+}
+
+ .cart-product .cart-product-name{
+  font-weight: 800;
+  color: var(--text-dark);
+}
+.cart-product .order-info button{
+padding: 10px;
+border: none;
+outline: none;
+color: #fff;
+border-radius: 5px;
+cursor: pointer;
+background: var(--accent-orange);
+}
+.cart-product .order-info button:hover{
+  opacity: .9;
+}
+.cart-section .submit-info{
+  padding: 10px;
+}
+.cart-section .submit-info p{
+  font-family: sans-serif;
+  color: var(--text-muted);
+  font-weight: 700;
+  font-size: 20px;
+}
+.cart-section .submit-info button{
+  padding: 10px;
+border: none;
+outline: none;
+color: #fff;
+border-radius: 5px;
+cursor: pointer;
+background: var(--primary-green-hover);
+}
+.cart-section .submit-info button:hover{
+  opacity: .8;
+}
+
+
+
