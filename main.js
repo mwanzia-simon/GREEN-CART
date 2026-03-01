@@ -1,12 +1,17 @@
 const PRODUCTS_FILE = "products.json";
 const productsContainer = document.querySelector(".products-container-02");
 const categoryButtons = document.querySelector(".category-buttons");
-const categoryBtn = categoryButtons.querySelectorAll(".category");
+const categoryBtn = document.querySelectorAll(".category");
 
-window.onload = () => {
-  loadCategories("all");
-};
+updateNumberOfItems();
+loadCategories("all");
 
+//Function to update the number of items in cart icon
+function updateNumberOfItems() {
+  const cartItems = loadCartProducts();
+  const numberOfItems = document.querySelector("#number-of-items");
+  numberOfItems.textContent = cartItems.length;
+}
 //Function to display modal
 function displayModal(title, message) {
   const alertModal = document.querySelector(".alert-modal");
@@ -89,5 +94,6 @@ function addProductToCart(product) {
   }
   cart.push(product);
   saveCartProduct(cart);
+  updateNumberOfItems();
   displayModal("ADDED TO CART!", "Item added succesifully!");
 }

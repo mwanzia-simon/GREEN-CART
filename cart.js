@@ -3,6 +3,14 @@ const shoppingCartContainer = document.querySelector(
 );
 const submitOrderBtn = document.querySelector(".submit-order");
 const totalMoneyTag = document.querySelector("#total-money");
+let total = 0;
+
+//Function to update the number of items in cart icon
+function updateNumberOfItems() {
+  const cartItems = loadCartProducts();
+  const numberOfItems = document.querySelector("#number-of-items");
+  numberOfItems.textContent = cartItems.length;
+}
 
 //Function to display modal
 function displayModal(title, message) {
@@ -18,6 +26,7 @@ function displayModal(title, message) {
 }
 
 window.onload = () => {
+  updateNumberOfItems();
   const cartItems = loadCartProducts();
   cartItems.forEach((item) => {
     shoppingCartContainer.innerHTML += `
@@ -42,6 +51,7 @@ window.onload = () => {
       e.target.parentElement.parentElement.remove();
       displayModal("ITEM REMOVED", "Item remove from cart succesifully!");
       saveCartProduct(cartItems);
+      updateNumberOfItems();
       calculateTotalMoney();
     });
   });
@@ -57,8 +67,18 @@ function saveCartProduct(product) {
 
 function calculateTotalMoney() {
   const cartItems = loadCartProducts();
-  const total = cartItems.reduce((sum, product) => {
+  total = cartItems.reduce((sum, product) => {
     return sum + Number(product.productPrice);
   }, 0);
   totalMoneyTag.textContent = `Total:  Ksh ${total.toLocaleString() + ".00"}`;
 }
+
+//Function to submit order
+submitOrderBtn.addEventListener("click", () => {
+  const cartItems = loadCartProducts();
+  if (cartItems.length > 0) {
+    displayModal("ORDER SUBMISSION", `You order submitted succesifully!`);
+  } else {
+    displayModal("EMPTY SUBMISSION", `Cannot submit an empty order!`);
+  }
+});
