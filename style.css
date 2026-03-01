@@ -168,8 +168,13 @@ nav ul li a {
   flex-direction: column;
   position: relative;
   font-family: sans-serif;
+  transition: all .2s;
   box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
 }
+.products-container .product:hover{
+  scale: 1.07;
+}
+
 .products-container .product .lowered-price {
   padding: 2px;
   width: 100px;
