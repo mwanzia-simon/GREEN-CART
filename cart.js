@@ -73,12 +73,21 @@ function calculateTotalMoney() {
   totalMoneyTag.textContent = `Total:  Ksh ${total.toLocaleString() + ".00"}`;
 }
 
+//Function to redirect user
+function redirectUser(page) {
+  setTimeout(() => {
+    window.location.href = page;
+  }, 2000);
+}
+
 //Function to submit order
 submitOrderBtn.addEventListener("click", () => {
   const cartItems = loadCartProducts();
   if (cartItems.length > 0) {
     displayModal("ORDER SUBMISSION", `You order submitted succesifully!`);
+    redirectUser("index.html");
   } else {
     displayModal("EMPTY SUBMISSION", `Cannot submit an empty order!`);
+    redirectUser("products.html");
   }
 });
