@@ -616,7 +616,7 @@ footer .row .quick-links ul a {
   top: 5%;
   right: 5%;
   scale: 0;
-  gap: 10px;
+  gap: 15px;
   z-index: 1000;
   background-color: var(--bg-light);
   transition: all 0.3s;
@@ -633,7 +633,7 @@ footer .row .quick-links ul a {
   font-family: sans-serif;
 }
 .alert-modal .alert-info h3 {
-  font-size: 18px;
+  font-size: 15px;
   color: var(--text-dark);
 }
 .alert-modal .alert-info p {
@@ -642,11 +642,7 @@ footer .row .quick-links ul a {
 }
 
 .alert-modal i {
-  height: 30px;
-  width: 30px;
   padding: 10px;
-  border-radius: 50%;
-  font-size: 30px;
+  font-size: 25px;
   color: var(--secondary-green);
-  background: var(--bg-white);
 }
