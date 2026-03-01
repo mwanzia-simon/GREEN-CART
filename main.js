@@ -2,6 +2,7 @@ const PRODUCTS_FILE = "products.json";
 const productsContainer = document.querySelector(".products-container-02");
 const categoryButtons = document.querySelector(".category-buttons");
 const categoryBtn = document.querySelectorAll(".category");
+const subscribeNewsletterBtn = document.querySelector("#subscribe-newsletter");
 
 updateNumberOfItems();
 loadCategories("all");
@@ -50,15 +51,16 @@ if (categoryBtn) {
 }
 
 async function loadCategories(target) {
-  const res = await fetch(PRODUCTS_FILE);
-  const data = await res.json();
-  const filteredData =
-    target === "all"
-      ? data
-      : data.filter((product) => product.category === target);
+  if (productsContainer) {
+    const res = await fetch(PRODUCTS_FILE);
+    const data = await res.json();
+    const filteredData =
+      target === "all"
+        ? data
+        : data.filter((product) => product.category === target);
 
-  filteredData.forEach((product) => {
-    productsContainer.innerHTML += `
+    filteredData.forEach((product) => {
+      productsContainer.innerHTML += `
      <div class="product">
           <p class="lowered-price">ksh. ${product.priceDecrease}</p>
           <img src="${product.productImageUrl}" />
@@ -74,14 +76,15 @@ async function loadCategories(target) {
           <button class="add-to-cart" data-id="${product.productID}">Add to cart</button>
         </div>
     `;
-  });
-  document.querySelectorAll(".add-to-cart").forEach((btn) => {
-    btn.addEventListener("click", (e) => {
-      const id = e.target.dataset.id;
-      const selectedProduct = data.find((product) => product.productID == id);
-      addProductToCart(selectedProduct);
     });
-  });
+    document.querySelectorAll(".add-to-cart").forEach((btn) => {
+      btn.addEventListener("click", (e) => {
+        const id = e.target.dataset.id;
+        const selectedProduct = data.find((product) => product.productID == id);
+        addProductToCart(selectedProduct);
+      });
+    });
+  }
 }
 
 //Function to add product to cart
@@ -96,4 +99,10 @@ function addProductToCart(product) {
   saveCartProduct(cart);
   updateNumberOfItems();
   displayModal("ADDED TO CART!", "Item added succesifully!");
+}
+
+if (subscribeNewsletterBtn) {
+  subscribeNewsletterBtn.addEventListener("click", () => {
+    displayModal("NEWSLETTER", "Succesifully subscribed to our newsletter!");
+  });
 }
