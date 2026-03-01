@@ -83,14 +83,16 @@ nav ul .cart-container p {
   align-items: center;
   justify-content: center;
   font-family: sans-serif;
-  font-weight: 700;
+  font-weight: 400;
   color: #fff;
   border-radius: 50%;
   top: -30px;
   right: -5px;
+  font-size: 16px;
+  padding: 1px;
 }
 nav ul .cart-container i {
-  font-size: 22px;
+  font-size: 25px;
   color: var(--text-muted);
 }
 
@@ -617,14 +619,13 @@ footer .row .quick-links ul a {
   gap: 10px;
   z-index: 1000;
   background-color: var(--bg-light);
-  transition: all .3s;
+  transition: all 0.3s;
   box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.2);
 }
 
 .alert-active {
   scale: 1;
 }
-
 
 .alert-modal .alert-info {
   width: 100%;
