@@ -544,28 +544,32 @@ footer .row .quick-links ul a {
 }
 
 .cart-section .shopping-cart-container{
-  padding: 20px 20px;
+  padding: 10px 10px;
   display: flex;
   gap: 10px;
   flex-direction: column;
+  width: 100%;
 }
 .cart-section .shopping-cart-container .cart-product{
   padding: 10px;
   display: flex;
-  gap: 10px;
+  gap: 15px;
   font-family: sans-serif;
   justify-content: space-around;
   border-bottom: 1px solid var(--text-muted);
 }
 .shopping-cart-container .cart-product img{
-  height: 80px;
-  width: 80px;
-  object-fit: cover;
+  height: 100px;
+  width: 100px;
+  object-fit: contain;
 }
 
  .cart-product .cart-product-name{
   font-weight: 800;
   color: var(--text-dark);
+}
+.cart-product .order-info{
+  width: 200px;
 }
 .cart-product .order-info button{
 padding: 10px;
