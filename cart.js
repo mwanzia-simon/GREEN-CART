@@ -18,7 +18,19 @@ window.onload = () => {
         </div>
 `;
   });
-console.log(cartItems)
+  calculateTotalMoney();
+  //Adding Event listener to remove buttons
+  document.querySelectorAll(".remove-product-btn").forEach((btn) => {
+    btn.addEventListener("click", (e) => {
+      const id = e.target.dataset.id;
+      let cartItems = loadCartProducts();
+      cartItems = cartItems.filter((item) => item.productID !== id);
+      saveCartProduct(cartItems);
+      calculateTotalMoney()
+      e.target.parentElement.parentElement.remove()
+      alert(`${id} Removed succesifully!`);
+    });
+  });
 };
 
 function loadCartProducts() {
@@ -27,4 +39,12 @@ function loadCartProducts() {
 
 function saveCartProduct(product) {
   localStorage.setItem("CART-PRODUCTS", JSON.stringify(product));
+}
+
+function calculateTotalMoney() {
+  const cartItems = loadCartProducts();
+  const total = cartItems.reduce((sum, product) => {
+    return sum + Number(product.productPrice);
+  }, 0);
+  totalMoneyTag.textContent = `Total:  Ksh ${total.toLocaleString() + ".00"}`;
 }
