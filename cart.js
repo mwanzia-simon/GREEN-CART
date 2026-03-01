@@ -4,6 +4,19 @@ const shoppingCartContainer = document.querySelector(
 const submitOrderBtn = document.querySelector(".submit-order");
 const totalMoneyTag = document.querySelector("#total-money");
 
+//Function to display modal
+function displayModal(title, message) {
+  const alertModal = document.querySelector(".alert-modal");
+  const alertTitle = document.querySelector(".alert-title");
+  const alertMessage = document.querySelector(".alert-message");
+  alertTitle.textContent = title;
+  alertMessage.textContent = message;
+  alertModal.classList.add("alert-active");
+  setTimeout(() => {
+    alertModal.classList.remove("alert-active");
+  }, 1800);
+}
+
 window.onload = () => {
   const cartItems = loadCartProducts();
   cartItems.forEach((item) => {
@@ -25,10 +38,11 @@ window.onload = () => {
       const id = e.target.dataset.id;
       let cartItems = loadCartProducts();
       cartItems = cartItems.filter((item) => item.productID !== id);
+
+      e.target.parentElement.parentElement.remove();
+      displayModal("ITEM REMOVED", "Item remove from cart succesifully!");
       saveCartProduct(cartItems);
-      calculateTotalMoney()
-      e.target.parentElement.parentElement.remove()
-      alert(`${id} Removed succesifully!`);
+      calculateTotalMoney();
     });
   });
 };

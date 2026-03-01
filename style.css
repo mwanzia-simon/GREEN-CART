@@ -245,7 +245,6 @@ nav ul li a {
   transition: transform 0.2s ease;
   font-family: sans-serif;
   text-align: center;
-
 }
 .reasons .reason-card h3 {
   font-size: 18px;
@@ -257,12 +256,12 @@ nav ul li a {
   font-size: 30px;
   border-radius: 50%;
   background: var(--accent-orange);
-  color:#fff; 
+  color: #fff;
   display: flex;
   align-items: center;
-  justify-content: center; 
+  justify-content: center;
   margin: 0 auto;
-} 
+}
 .testimonial {
   padding: 60px 20px;
   background-color: var(--bg-white);
@@ -473,7 +472,7 @@ footer .row .quick-links ul a {
   align-items: center;
   padding: 10px;
 }
-.categories .products-container-02{
+.categories .products-container-02 {
   padding: 60px 20px;
 }
 .categories .category-buttons button {
@@ -485,7 +484,7 @@ footer .row .quick-links ul a {
   color: var(--text-dark);
   background: var(--bg-white);
   cursor: pointer;
-  transition: all .2s;
+  transition: all 0.2s;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 .categories .category-buttons button:hover {
@@ -493,7 +492,7 @@ footer .row .quick-links ul a {
   background: var(--accent-orange);
 }
 
-.categories .category-buttons .active{
+.categories .category-buttons .active {
   color: #fff;
   background-color: var(--accent-orange);
 }
@@ -531,26 +530,26 @@ footer .row .quick-links ul a {
   box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
   background-color: var(--primary-green);
 }
-.cart-section{
+.cart-section {
   max-width: 70%;
   padding: 20px 20px;
   margin: 0 auto;
 }
-.cart-section h3{
+.cart-section h3 {
   font-family: sans-serif;
   color: var(--text-dark);
   text-align: center;
   font-size: 22px;
 }
 
-.cart-section .shopping-cart-container{
+.cart-section .shopping-cart-container {
   padding: 10px 10px;
   display: flex;
   gap: 10px;
   flex-direction: column;
   width: 100%;
 }
-.cart-section .shopping-cart-container .cart-product{
+.cart-section .shopping-cart-container .cart-product {
   padding: 10px;
   display: flex;
   gap: 15px;
@@ -558,52 +557,95 @@ footer .row .quick-links ul a {
   justify-content: space-around;
   border-bottom: 1px solid var(--text-muted);
 }
-.shopping-cart-container .cart-product img{
+.shopping-cart-container .cart-product img {
   height: 100px;
   width: 100px;
   object-fit: contain;
 }
 
- .cart-product .cart-product-name{
+.cart-product .cart-product-name {
   font-weight: 800;
   color: var(--text-dark);
 }
-.cart-product .order-info{
+.cart-product .order-info {
   width: 200px;
 }
-.cart-product .order-info button{
-padding: 10px;
-border: none;
-outline: none;
-color: #fff;
-border-radius: 5px;
-cursor: pointer;
-background: var(--accent-orange);
+.cart-product .order-info button {
+  padding: 10px;
+  border: none;
+  outline: none;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  background: var(--accent-orange);
 }
-.cart-product .order-info button:hover{
-  opacity: .9;
+.cart-product .order-info button:hover {
+  opacity: 0.9;
 }
-.cart-section .submit-info{
+.cart-section .submit-info {
   padding: 10px;
 }
-.cart-section .submit-info p{
+.cart-section .submit-info p {
   font-family: sans-serif;
   color: var(--text-muted);
   font-weight: 700;
   font-size: 20px;
 }
-.cart-section .submit-info button{
+.cart-section .submit-info button {
   padding: 10px;
-border: none;
-outline: none;
-color: #fff;
-border-radius: 5px;
-cursor: pointer;
-background: var(--primary-green-hover);
+  border: none;
+  outline: none;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  background: var(--primary-green-hover);
 }
-.cart-section .submit-info button:hover{
-  opacity: .8;
+.cart-section .submit-info button:hover {
+  opacity: 0.8;
+}
+
+/* Alert model */
+.alert-modal {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  position: fixed;
+  top: 5%;
+  right: 5%;
+  scale: 0;
+  gap: 10px;
+  z-index: 1000;
+  background-color: var(--bg-light);
+  transition: all .3s;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.2);
+}
+
+.alert-active {
+  scale: 1;
 }
 
 
+.alert-modal .alert-info {
+  width: 100%;
+  padding: 5px;
+  font-family: sans-serif;
+}
+.alert-modal .alert-info h3 {
+  font-size: 18px;
+  color: var(--text-dark);
+}
+.alert-modal .alert-info p {
+  font-size: 15px;
+  color: var(--text-dark);
+}
 
+.alert-modal i {
+  height: 30px;
+  width: 30px;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 30px;
+  color: var(--secondary-green);
+  background: var(--bg-white);
+}

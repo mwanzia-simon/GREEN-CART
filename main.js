@@ -7,7 +7,19 @@ window.onload = () => {
   loadCategories("all");
 };
 
-//Local storage helper functions
+//Function to display modal
+function displayModal(title, message) {
+  const alertModal = document.querySelector(".alert-modal");
+  const alertTitle = document.querySelector(".alert-title");
+  const alertMessage = document.querySelector(".alert-message");
+  alertTitle.textContent = title;
+  alertMessage.textContent = message;
+  alertModal.classList.add("alert-active");
+  setTimeout(() => {
+    alertModal.classList.remove("alert-active");
+  }, 1800);
+}
+
 //Function to load cart products
 function loadCartProducts() {
   return JSON.parse(localStorage.getItem("CART-PRODUCTS") || "[]");
@@ -72,10 +84,10 @@ function addProductToCart(product) {
   const cart = loadCartProducts();
   const exists = cart.find((item) => item.productID === product.productID);
   if (exists) {
-    alert("Item already in cart!");
+    displayModal("ITEM IN CART!", "Item already added in cart!");
     return;
   }
   cart.push(product);
   saveCartProduct(cart);
-  alert("Alert item added to cart!");
+  displayModal("ADDED TO CART!", "Item added succesifully!");
 }
